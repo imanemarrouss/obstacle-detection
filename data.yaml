@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['obstacle', 'road', 'sidewalk']
+
+roboflow:
+  workspace: posco-bigdataai
+  project: posco-ai-vqomn
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/posco-bigdataai/posco-ai-vqomn/dataset/4
