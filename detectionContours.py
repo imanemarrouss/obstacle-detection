@@ -42,8 +42,8 @@ def is_contour_inside_labels(contour, labels):
 
 
 # Chemin vers le répertoire contenant les images
-image_directory = 'C:\\Users\\Dell\\Downloads\\dataset_Ti\\train\\images\\'
-labels_directory = 'C:\\Users\\Dell\\Downloads\\dataset_Ti\\train\\labels\\'
+image_directory = 'C:\\Users\\Lenovo\\Desktop\\ti\\train\\images\\'
+labels_directory = 'C:\\Users\\Lenovo\\Desktop\\ti\\train\\labels\\'
 
 # Parcourir tous les fichiers dans le répertoire
 for filename in os.listdir(image_directory):

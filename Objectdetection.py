@@ -3,8 +3,8 @@ import os
 import matplotlib.pyplot as plt
 
 # Load the image and labels
-image_directory = 'C:\\Users\\Dell\\Downloads\\dataset_Ti\\train\\images\\'
-labels_directory = 'C:\\Users\\Dell\\Downloads\\dataset_Ti\\train\\labels\\'
+image_directory = 'C:\\Users\\Lenovo\\Desktop\\ti\\train\\images\\'
+labels_directory = 'C:\\Users\\Lenovo\\Desktop\\ti\\train\\labels\\'
 
 def read_labels(file_path):
     with open(file_path, 'r') as file:
